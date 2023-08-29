@@ -21,5 +21,5 @@ fetch(URLID)
     </div>`;
       document.title = `${data.title}`;
   })
-  .catch(error => { spinner.remove(); console.log('An error occurred:', error);
+  .catch(error => { console.log('An error occurred:', error);
   });
