@@ -1,4 +1,4 @@
-fetch(BASEURL + ALLPRODUCTS)
+fetch(BASEURL + ALLPRODUCTS + '?' + consumerKey + consumerSecret)
   .then(response => response.json())
   .then(data => {
     const SNEAKERCONTAINER = document.querySelector(".featured-prods");

@@ -4,7 +4,7 @@ const PARAMS = new URLSearchParams(QUERYSTRING)
 
 const ID = PARAMS.get("id");
 
-const URLID = BASEURL + SINGLEPRODUCT + ID;
+const URLID = BASEURL + ALLPRODUCTS + '/' + ID + "?" + consumerKey + consumerSecret;
 
 
 
