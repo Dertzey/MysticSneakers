@@ -1,4 +1,4 @@
-const BaseUrl = `https://dertzey.no/wp-json/wc/store/products?featured=true`;
+const BaseUrl = `https://cors.noroff.dev/https://dertzey.no/wp-json/wc/store/products?featured=true`;
 
 fetch(BaseUrl)
     .then(response => response.json())
