@@ -1,4 +1,4 @@
 const BASEURL = 'https://cors.noroff.dev/https://dertzey.no/wp-json/';
 const ALLPRODUCTS = 'wc/v3/products'
-const consumerKey = 'consumer_key=ck_604a086e415a68b4d4bb7a9965ee7f29fa7bca9a'
-const consumerSecret = 'consumer_secret=cs_d11cfb00c4544376249f0ca789a31fea6189ca95'
+const consumerKey = 'consumer_key=ck_3fa5db4b61bf4176859c8b9466c40ce24df0ff83';
+const consumerSecret = 'cs_953243e55fa6f6c83ea387cb23add51dd07bd9d2';
