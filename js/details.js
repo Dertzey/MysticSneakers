@@ -13,13 +13,14 @@ fetch(URLID)
   .then(data => {
     const PRODUCTCONTAINER = document.querySelector(".product-detail");
     PRODUCTCONTAINER.innerHTML = `
+    <h3 class="body-h3">Product detail</h3>
     <div class="fepro">
         <img src="${data.images[0].src}">
         <h3>${data.name}</h3>
         <p>${data.description}</p>
         <p class="price">${data.price_html}</p>
     </div>`;
-      document.title = `${data.title}`;
   })
-  .catch(error => { console.log('An error occurred:', error);
+  .catch(error => {
+    console.log('An error occurred:', error);
   });
